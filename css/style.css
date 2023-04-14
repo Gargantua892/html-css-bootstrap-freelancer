@@ -4,12 +4,40 @@
 
 /* debug */
 
-[class*="col"]{
+/* [class*="col"]{
     background-color: rgba(137, 43, 226, 0.499);
     border: 1px solid #000;
+} */
+header{
+    background-color: #2b3e50;
 }
-
 
 .hero .img-container{
     max-width: 150px;
+}
+
+.hero, .about, .primary-btn{
+    background-color: #17bc9c;
+    color: #fff;
+}
+
+img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: #3a546d;
+}
+
+footer h5{
+    text-transform: uppercase;
+}
+
+.copyright{
+    background-color: #2b3e50;
+    color: #fff;
+}
+
+.copyright p{
+    margin: 16px 0px;
 }
