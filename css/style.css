@@ -8,6 +8,10 @@
     background-color: rgba(137, 43, 226, 0.499);
     border: 1px solid #000;
 } */
+
+:root, [data-bs-theme=light]{
+    --bs-primary: #17bc9c!important;
+}
 header{
     background-color: #2b3e50;
 }
@@ -16,13 +20,17 @@ header{
     max-width: 150px;
 }
 
-.hero, .about, .primary-btn{
+.hero, .about{
     background-color: #17bc9c;
     color: #fff;
 }
 
 img{
     max-width: 100%;
+}
+
+.portfolio img{
+    border-radius: 16px;
 }
 
 footer{
@@ -56,4 +64,15 @@ footer h5{
 
 .fa-star{
     font-size: 26px;;
+}
+
+footer .icon-container{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    border-radius: 50%;
 }
