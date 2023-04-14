@@ -1,6 +1,15 @@
+/* reset css */
+
+
+
 /* debug */
 
 [class*="col"]{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.499);
     border: 1px solid #000;
+}
+
+
+.hero .img-container{
+    max-width: 150px;
 }
