@@ -40,4 +40,20 @@ footer h5{
 
 .copyright p{
     margin: 16px 0px;
+
+}
+
+.divider{
+    background-color: #fff;
+    width: 64px;
+    height: 3px;
+    border-radius: 64px;
+}
+
+.portfolio .divider, .contact .divider{
+    background-color: #212529;
+}
+
+.fa-star{
+    font-size: 26px;;
 }
